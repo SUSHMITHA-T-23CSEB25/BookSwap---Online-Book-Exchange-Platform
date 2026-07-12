@@ -1,0 +1,227 @@
+/* =========================
+   Profile Page
+========================= */
+
+
+.profile-page {
+
+    max-width: 900px;
+
+    margin: 30px auto;
+
+    padding: 20px;
+
+}
+
+
+
+
+
+.profile-page h1 {
+
+    text-align: center;
+
+    color: #1e293b;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+/* =========================
+   Profile Card
+========================= */
+
+
+.profile-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(
+        0,
+        0,
+        0,
+        0.1
+    );
+
+}
+
+
+
+
+
+.profile-image img {
+
+    width: 120px;
+
+    height: 120px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+
+
+.profile-card h2 {
+
+    color: #0284c7;
+
+}
+
+
+
+
+
+.profile-card p {
+
+    margin: 12px 0;
+
+    color: #475569;
+
+}
+
+
+
+
+
+/* =========================
+   Requests
+========================= */
+
+
+.request-card {
+
+    background: white;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(
+        0,
+        0,
+        0,
+        0.1
+    );
+
+}
+
+
+
+
+
+.request-card h3 {
+
+    color: #1e293b;
+
+}
+
+
+
+
+
+.request-card p {
+
+    margin: 8px 0;
+
+}
+
+
+
+
+
+/* =========================
+   Request Buttons
+========================= */
+
+
+.accept-btn {
+
+    background: #16a34a !important;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 6px;
+
+    margin-right: 10px;
+
+}
+
+
+
+
+
+.accept-btn:hover {
+
+    background: #15803d !important;
+
+}
+
+
+
+
+
+.reject-btn {
+
+    background: #dc2626 !important;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 6px;
+
+}
+
+
+
+
+
+.reject-btn:hover {
+
+    background: #b91c1c !important;
+
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+    .profile-page {
+
+        padding: 10px;
+
+    }
+
+
+
+    .request-card {
+
+        padding: 15px;
+
+    }
+
+
+}

@@ -1,0 +1,192 @@
+/* =========================
+   Footer
+========================= */
+
+
+.footer {
+
+    background: #1e293b;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+
+}
+
+
+
+
+
+.footer p {
+
+    margin: 5px 0;
+
+}
+
+
+
+
+
+/* =========================
+   Loader
+========================= */
+
+
+.loader-container {
+
+    min-height: 70vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+
+
+.loader {
+
+    width: 45px;
+
+    height: 45px;
+
+    border: 5px solid #e2e8f0;
+
+    border-top: 5px solid #0284c7;
+
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+
+}
+
+
+
+
+
+.loader-container p {
+
+    margin-top: 15px;
+
+    color: #475569;
+
+}
+
+
+
+
+
+@keyframes spin {
+
+
+    0% {
+
+        transform: rotate(0deg);
+
+    }
+
+
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+
+
+}
+
+
+
+
+
+
+/* =========================
+   404 Page
+========================= */
+
+
+.not-found {
+
+    min-height: 70vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+
+
+
+.not-found h1 {
+
+    font-size: 90px;
+
+    color: #0284c7;
+
+}
+
+
+
+
+
+.not-found h2 {
+
+    color: #1e293b;
+
+}
+
+
+
+
+
+.not-found p {
+
+    color: #64748b;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+.not-found a {
+
+    background: #0284c7;
+
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+}
+
+
+
+
+
+.not-found a:hover {
+
+    background: #0369a1;
+
+}
